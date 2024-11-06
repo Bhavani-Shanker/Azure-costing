@@ -79,13 +79,13 @@ with col2:
 # Cost per million tokens input, editable only if checkbox is selected
 prompt_cost_per_million = st.number_input(
     "Cost per million tokens for Prompt Token Count ($)", 
-    value=7.5, 
+    value=2.5, 
     step=0.01, 
     disabled=not editable
 )
 completion_cost_per_million = st.number_input(
     "Cost per million tokens for Completion Token Count ($)", 
-    value=66.0, 
+    value=10.0, 
     step=0.01, 
     disabled=not editable
 )
